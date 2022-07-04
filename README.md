@@ -1,4 +1,13 @@
 # Project Overview
+AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management would like to review the production data for insights that may help the manufacturing team by performing multiple linear regression analysis, collect summary statistics, run t-tests and design a statistical study. The following deliverables will be created:
+
+ 1: Linear Regression to Predict MPG
+ 
+ 2: Summary Statistics on Suspension Coils
+ 
+ 3: T-Test on Suspension Coils
+ 
+ 4: Design a Study Comparing the MechaCar to the Competition
 
 ## Linear Regression to Predict MPG
 ![image](https://user-images.githubusercontent.com/99636479/177199793-4c2872cc-f6fb-44d5-86e6-e158065d8275.png)
@@ -28,3 +37,12 @@ The p-values for the total, Lot1 and Lot2 are above the significance level of 0.
 ### *Lot3 t-test
 ![image](https://user-images.githubusercontent.com/99636479/177217153-004d4335-8526-4cb4-bf97-02fabc904ac2.png)
 
+## Study Design: MechaCar vs Competition
+
+
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+In your description, address the following questions:
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
