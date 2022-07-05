@@ -38,11 +38,4 @@ The p-values for the total, Lot1 and Lot2 are above the significance level of 0.
 ![image](https://user-images.githubusercontent.com/99636479/177217153-004d4335-8526-4cb4-bf97-02fabc904ac2.png)
 
 ## Study Design: MechaCar vs Competition
-
-
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+With the rising cost of gasoline, highway fuel efficiency is a major area of interest for consumers. We are going to compare the fuel efficiency of MechaCar against competitors as well as vehicle length, weight, spoiler angle because these all effect fuel efficiency.The null hypothesis shows no statistical difference between MechaCar fuel efficiency and competitor's fuel efficiency. The alternative hypothesis shows there is a statistical difference between MechaCar fuel efficiency and competitor's fuel efficiency. The One-Sample t-Test will be utilized to tset the hypothesis because it will be able to provide the difference between the mean of the sample distribution against the mean of the population distribution. The fuel efficiency of vehicles for MechaCar and competitors will be needed to run the statistical test.
