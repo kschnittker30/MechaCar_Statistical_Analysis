@@ -19,6 +19,15 @@ total_summary <- coil_table %>% summarize(Mean=mean(PSI),Median=median(PSI),Vari
 # summarize() functions to group each manufacturing lot
 lot_summary <- coil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI) ,SD=sd(PSI), .groups = 'keep')
 
+# Write t.test() function for PSI
+t.test(coil_table$PSI,mu=1500)
 
+# Write t.test() function for PSI fot Lot1
+t.test(subset(coil_table, Manufacturing_Lot=="Lot1")$PSI,mu=1500)
 
+# Write t.test() function for PSI fot Lot2
+t.test(subset(coil_table, Manufacturing_Lot=="Lot2")$PSI,mu=1500)
+
+# Write t.test() function for PSI fot Lot3
+t.test(subset(coil_table, Manufacturing_Lot=="Lot3")$PSI,mu=1500)
 
